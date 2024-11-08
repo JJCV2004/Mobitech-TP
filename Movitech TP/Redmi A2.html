@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi Redmi A2 64gb</title>
+    <link rel="stylesheet" href="Css/Productos.css">
+</head>
+<body>
+    <div class="header">
+        <img src="img/movitech-logo.png" width="200px" height="150px">
+        <h2>Conectando tu mundo facil y rápido</h2>
+    </div>
+
+    <div class="nav">
+        <a href="Inicio.html">Inicio</a>
+        <a href="apple.html">Apple</a>
+        <a href="Samsung.html">Samsung</a>
+        <a href="Motorola.html">Motorola</a>
+        <a href="xiaomi.html">Xiaomi</a>
+        <a href="Acessorios.html">Accesorios</a>
+        <a href="Contactanos.html">Contactanos</a>
+    </div>
+    
+    <div class="producto">
+        <div class="producto-imagen">
+            <img src="img/xiaomi-a2.jpg" alt="Xiaomi Redmi A2 64gb">
+        </div>
+        <div class="producto-detalles">
+            <h1>Xiaomi Redmi A2 64gb</h1>
+            <p class="precio">$85 USD</p>
+            <p class="stock">Disponible</p>
+            <p>Hasta 12 cuotas sin interés</p>
+
+            <div class="contar">
+                <button class="contar-boton" onclick="decrement()">-</button>
+                <span class="contar-display" id="contadores">1</span>
+                <button class="contar-boton" onclick="increment()">+</button>
+            </div>
+            
+            <button class="btn-comprar" onclick="comprarProducto()">Añadir al Carrito</button>
+
+            <div class="medios-pago">
+                <p>Medios de pago</p><br>
+                <img src="img/pago.jpg" width="130px" height="70px">
+            </div>
+        </div>
+    </div>
+
+    <div class="informacion-producto">
+        <h2>Información del producto</h2>
+        <ul>
+            <li>Pantalla: IPS LCD de 6.52 pulgadas con resolución HD+ (720 x 1600 píxeles).</li>
+            <li>Procesador: MediaTek Helio G36 (12 nm), Octa-core (4x2.2 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53).</li>
+            <li>Cámara trasera: Doble cámara con sensor principal de 8 MP (f/2.0) y sensor auxiliar de 0.08 MP.</li>
+            <li>Almacenamiento: 64 GB de almacenamiento interno, expandible mediante microSD hasta 1 TB.</li>
+            <li>Batería: 5000 mAh con carga rápida de 10W.</li>
+            <li>Sistema operativo: Android 12 (Go Edition) con MIUI.</li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Acerca de</h3>
+            <ul>
+                <li><a href="#">¿Quiénes Somos?</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Defensa del Consumidor</a></li>
+                <li><a href="#">Trabajá con Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">¿Cómo comprar?</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Pagos y promociones</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Centro de Atención al Cliente</h3>
+            <ul>
+                <li><a href="#">📧 Libro de quejas Online</a></li>
+                <li>📱 11 3814-0468 | Lu a Vi 9 a 20 | Sa 9 a 17</li>
+                <li>☎️ 0810-888-3398 | Lu a Vi 9 a 18 | Sa 9 a 17</li>
+            </ul>
+        </div>
+    </footer>
+
+    <footer class="copyright" style="text-align: center; padding: 10px; background-color: #3366CC; color: white;">
+        <p>&copy; 2024 Tienda de Celulares. Todos los derechos reservados.</p>
+    </footer>
+    <script language="javascript">
+        let count = 1;
+        const precioUnitario = 85; // Precio x unidad en USD
+
+        function increment() {
+            if (count < 10) {  // Limita el máximo a 10
+                count++;
+                document.getElementById('contadores').textContent = count;
+            }
+        }
+
+        function decrement() {
+            if (count > 0) {  // Evita que el valor sea negativo
+                count--;
+                document.getElementById('contadores').textContent = count;
+            }
+        }
+
+        function comprarProducto() {
+            let cantidad = count;
+            let total = cantidad * precioUnitario; // Calcula total a pagar
+            alert(`Se ha añadido correctamente, has comprado ${cantidad} unidad/es de producto. Total a pagar: $${total} USD`);
+        }
+    </script>
+</body>
+</html>

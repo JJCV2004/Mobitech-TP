@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="Css/marcas.css">
+</head>
+<body>
+    
+    
+    <header>
+
+        <div class="header">
+            <img src="img/movitech-logo.png" width="200px" height="150px">
+            <h2>Conectando tu mundo facil y rápido</h2>
+        </div>
+
+        <nav class="nav">
+            <a href="Inicio.html">Inicio</a>
+            <a href="apple.html">Apple</a>
+            <a href="Samsung.html">Samsung</a>
+            <a href="Motorola.html">Motorola</a>
+            <a href="xiaomi.html">Xiaomi</a>
+            <a href="Acessorios.html">Accesorios</a>
+            <a href="Contactanos.html">Contactanos</a>
+            <div class="buscador">
+                <input type="text" id="buscador" placeholder="Buscar..." oninput="showSuggestions()">
+                <button onclick="searchProduct()">
+                    🔍
+                </button>
+                <div id="sugerencias" class="sugerencias"></div>
+            </div>
+        </nav>
+
+        <div class="slider-frame">
+            <ul>
+               <li><img src="img/slider 1.jpg" width="1100" height="300px"  alt=""></li> 
+               <li><img src="img/slider 2.jpg" width="1100" height="300px" alt=""></li>
+               <li><img src="img/slider 3.jpg" width="1100" height="300px" alt=""></li>
+               <li><img src="img/slider 4.jpg" width="1100" height="300px" alt=""></li>
+            </ul>
+            
+        </div>
+
+    </header>
+
+    <main class="main">
+        <br>
+        <h2>Compra tu Iphone en MobiTech y disfrutá de la tecnología más avanzada</h2>
+        <br>
+        <div class="position">
+
+            <label for="orden">Ordenar por:</label>
+    
+            <select name="orden" id="orden">
+                <option value="relevante">Más relevante</option>
+                <option value="vendido">Más vendido</option>
+                <option value="precio_mayor">Precio mayor</option>
+                <option value="precio_menor">Precio menor</option>
+            </select>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="img/iphone-15-pro.webp" alt="iphone"> <br>
+                <h2>Apple Iphone 15 Pro 256gb</h2> <br>
+                <h2>$1050 USD</h2>
+                <h4>HASTA 12 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone 15 Pro.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+            <div class="product">
+                <img src="img/Iphone-15.webp" alt="iphone"> <br> 
+                <h2>Apple Iphone 15 128gb</h2> <br>
+                <h2>$800 USD</h2>
+                <h4>HASTA 6 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone 15.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+            <div class="product">
+                <img src="img/iphone-13-pro-max.jpg" alt="iphone"> <br>
+                <h2>Apple Iphone 13 Pro Max 256gb</h2> <br>
+                <h2>$850 USD</h2>
+                <h4>HASTA 6 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone 13 Pro Max.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="img/iphone-13.webp" alt="iphone"> <br>
+                <h2>Apple Iphone 13 128gb</h2> <br>
+                <h2>650 USD</h2>
+                <h4>HASTA 12 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone 13.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+            <div class="product">
+                <img src="img/iphone-11.webp"alt="iphone"> <br>
+                <h2>Apple Iphone 11 64gb</h2> <br>
+                <h2>$500 USD</h2>
+                <h4>HASTA 6 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone 11.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+            <div class="product">
+                <img src="img/iphone-xs.webp" alt="iphone"> <br>
+                <h2>Apple Iphone SE 64gb</h2> <br>
+                <h2>$400 USD</h2>
+                <h4>HASTA 6 CUOTAS SIN INTERÉS</h4> <br>
+                <a href="Iphone SE.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+
+        </div>
+
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Acerca de</h3>
+            <ul>
+                <li><a href="#">¿Quiénes Somos?</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Defensa del Consumidor</a></li>
+                <li><a href="#">Trabajá con Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">¿Cómo comprar?</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Pagos y promociones</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Centro de Atención al Cliente</h3>
+            <ul>
+                <li><a href="#">📧 Libro de quejas Online</a></li>
+                <li>📱 11 3814-0468 | Lu a Vi 9 a 20 | Sa 9 a 17</li>
+                <li>☎️ 0810-888-3398 | Lu a Vi 9 a 18 | Sa 9 a 17</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        &copy; 2024 Tienda de Celulares. Todos los derechos reservados.
+    </div>
+
+    <script language="javascript">
+        //  Productos de la tienda con enlaces a sus respectivas páginas
+        const pages = {
+            "samsung s24 ultra": "Samsung-s24ultra-256gb.html",
+            "iphone 15 pro max": "Iphone 15 pro max.html",
+            "xiaomi redmi note 13 pro plus": "Xiaomi redmi note 13 pro plus.html",
+            "motorola razr 40 ultra": "Motorola razr 40 ultra.html",
+            "samsung galaxy a55": "Samsung Galaxy A55.html",
+            "iphone 15": "Iphone 15.html",
+            "xiaomi redmi note 13": "Xiaomi Redmi Note 13.html",
+            "motorola edge 40 ultra": "Motorola edge 40 ultra.html",
+            "Apple Iphone 15 Pro 256gb": "Iphone 15 Pro.html",
+            "Apple Iphone 15 128gb": "Iphone 15.html",
+            "Apple Iphone 13 Pro Max 256gb": "Iphone 13 Pro Max.html",
+            "Apple Iphone 13 128gb": "Iphone 13.html",
+            "Apple Iphone 11 64gb": "Iphone 11.html",
+            "Apple Iphone SE 64gb": "Iphone SE.html",
+            "Samsung Galaxy A05s 64gb": "Samsung A05s.html",
+            "Samsung Galaxy A15 128gb": "Samsung A15.html",
+            "Samsung Galaxy A04e 32gb": "Samsung A04e.html",
+            "Samsung Galaxy A05 64gb": "Samsung A05.html",
+            "Samsung Galaxy A35 256gb": "Samsung A35.html",
+            "Samsung Galaxy A54 128gb": "Samsung A54.html",
+            "Moto G24": "Moto G24.html",
+            "Moto G54": "Moto G54.html",
+            "Moto G84 5G": "Moto G84 5G.html",
+            "Moto G85 5G": "Moto G85 5G.html",
+            "Xiaomi Redmi 10C 128gb": "Redmi 10C.html",
+            "Xiaomi Redmi 13 128gb": "Redmi 13.html",
+            "Xiaomi Redmi A3X 128gb": "Redmi A3X.html",
+            "Xiaomi Redmi A2 64gb": "Redmi A2.html",
+            "Xiaomi Redmi 12 256gb": "Redmi 12.html",
+            "Apple Auriculares AirPods Segunda Generación": "apple-airpods.html",
+            "Samsung Galaxy Watch6 44mm": "samsung-watch4.html",
+            "Moto Buds 135 Auriculares Bluetooth": "moto-buds.html",
+            "Foxbox Cable Hub 3 en 1": "foxbox-cable.html",
+            "Moto XT220 Auriculares Bluetooth": "moto-xt220.html",
+            "JBL Wave Flex TWS Auriculares Bluetooth": "jbl-wabe.html"
+        };
+       // Función para buscar el producto ingresado en el recuadro de búsqueda
+        function buscarProducto() { 
+    const consulta = document.getElementById("buscador").value.toLowerCase().trim();
+    // Si el producto existe, redirige a su página
+    if (pages[consulta]) {
+        window.location.href = pages[consulta];
+    } else {
+        alert("Producto no encontrado. Intente buscar otro.");
+    }
+}
+// Función para mostrar sugerencias de productos mientras se escribe
+function mostrarSugerencias() {
+    const consulta = document.getElementById("buscador").value.toLowerCase().trim();
+    const sugerencias = document.getElementById("sugerencias");
+    sugerencias.innerHTML = '';
+
+    if (consulta) {
+        // Encuentra productos que coinciden con la búsqueda
+        const coincidencias = Object.keys(pages).filter(producto => producto.toLowerCase().includes(consulta));
+        console.log(coincidencias);
+        // Muestra las sugerencias del campo de búsqueda
+        if (coincidencias.length > 0) {
+            sugerencias.style.display = 'block';
+            coincidencias.forEach(producto => {
+                const sugerenciaDiv = document.createElement('div');
+                sugerenciaDiv.textContent = producto;
+                sugerenciaDiv.className = 'sugerencia';
+                // Al hacer clic en una sugerencia, redirige a su página
+                sugerenciaDiv.onclick = () => {
+                    window.location.href = pages[producto];
+                };
+                sugerencias.appendChild(sugerenciaDiv);
+            });
+        } else {
+            sugerencias.style.display = 'none';
+        }
+    } else {
+        sugerencias.style.display = 'none';
+    }
+}
+
+// Ocultar sugerencias al hacer clic fuera del recuadro de busqueda
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('#buscador')) {
+        document.getElementById('sugerencias').style.display = 'none';
+    }
+});
+
+// Mostrar sugerencias mientras se escribe en el buscador
+document.getElementById("buscador").addEventListener('input', mostrarSugerencias);
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBITECH</title>
+    <link rel="stylesheet" href="Css/inicio.css">
+</head>
+<body>
+    <div class="header">
+        <img src="img/movitech-logo.png" width="200px" height="150px">
+        <h2>Conectando tu mundo facil y rápido</h2>
+    </div>
+
+    <div class="nav">
+        <a href="Inicio.html">Inicio</a>
+        <a href="apple.html">Apple</a>
+        <a href="Samsung.html">Samsung</a>
+        <a href="Motorola.html">Motorola</a>
+        <a href="xiaomi.html">Xiaomi</a>
+        <a href="Acessorios.html">Accesorios</a>
+        <a href="Contactanos.html">Contactanos</a>
+        <div class="buscador">
+            <input type="text" id="buscador" placeholder="Buscar...">
+            <button onclick="searchProduct()">
+                🔍
+            </button>
+            <div id="sugerencias" class="sugerencias"></div>
+        </div>
+    </div>
+    <div class="slider-frame">
+        <ul>
+           <li><img src="img/slider 1.jpg" width="1100" height="300px"  alt=""></li> 
+           <li><img src="img/slider 2.jpg" width="1100" height="300px" alt=""></li>
+           <li><img src="img/slider 3.jpg" width="1100" height="300px" alt=""></li>
+           <li><img src="img/slider 4.jpg" width="1100" height="300px" alt=""></li>
+        </ul>
+        
+    </div>
+    <div class="main-content">
+        
+        <h2>Productos Destacados</h2>
+        <div class="productos">
+            <div class="producto"> <img src="img/s24ultra.jpg" width="200px" height="200px" >
+             <p>Samsung Galaxy S24 Ultra 256gb
+             <br> $1200
+             </p>
+             <a href="Samsung-s24ultra-256gb.html"><button class="btn-comprar">Comprar</button></a>
+            </div>
+            <div class="producto"><img src="img/iphone15promax.jpeg" width="200px" height="200px"> 
+              <p>Iphone 15 pro max 256gb
+              <br><br> $1250
+              </p>
+              <a href="Iphone 15 pro max.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+            <div class="producto"> <img src="img/xiaomirn13prop.png" width="200px" height="200px" >
+                <p>Xiaomi redmi note 13 pro plus 5g 512gb
+                <br> $1000
+                </p>
+                <a href="Xiaomi redmi note 13 pro plus.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+            <div class="producto"><img src="img/motorazr40ul.png" width="200px" height="200px"> 
+                 <p>Motorola razr 40 ultra 256gb
+                 <br><br> $1150
+                 </p>
+                 <a href="Motorola razr 40 ultra.html"><button class="btn-comprar">Comprar</button> </a>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="producto"> <img src="img/samsunga55.png" width="200px" height="200px" >
+                <p>Samsung Galaxy A55 128GB
+                <br> $450
+                </p>
+                <a href="Samsung Galaxy A55.html"><button class="btn-comprar">Comprar</button> </a>
+               </div>
+               <div class="producto"><img src="img/iphone15.png" width="200px" height="200px"> 
+                 <p>Iphone 15 256gb
+                 <br> $950
+                 </p>
+                 <a href="Iphone 15.html"><button class="btn-comprar">Comprar</button></a>
+               </div>
+               <div class="producto"> <img src="img/redminote13.png" width="200px" height="200px" >
+                   <p>Xiaomi redmi note 13 128gb
+                   <br> $300
+                   </p>
+                   <a href="Xiaomi Redmi Note 13.html"><button class="btn-comprar">Comprar</button></a>
+               </div>
+               <div class="producto"><img src="img/motorolaedge40ul.png" width="200px" height="200px"> 
+                    <p>Motorola edge 40 ultra 256gb
+                    <br> $1100
+                    </p>
+                    <a href="Motorola edge 40 ultra.html"><button class="btn-comprar">Comprar</button></a>
+               </div>
+        </div>
+        <div aling="center">
+            <img src="img/apple-logo.png" width="70px" height="70px"  alt="Apple">
+            <img src="img/samsung-logo.png" width="140px" height="50px" alt="Samsung">
+            <img src="img/motorola-logo.png" width="80px" height="50px" alt="Motorola">
+            <img src="img/xiaomi-logo.png" width="70px" height="70px" alt="Xiaomi">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Acerca de</h3>
+            <ul>
+                <li><a href="#">¿Quiénes Somos?</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Defensa del Consumidor</a></li>
+                <li><a href="#">Trabajá con Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">¿Cómo comprar?</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Pagos y promociones</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Centro de Atención al Cliente</h3>
+            <ul>
+                <li><a href="#">📧 Libro de quejas Online</a></li>
+                <li>📱 11 3814-0468 | Lu a Vi 9 a 20 | Sa 9 a 17</li>
+                <li>☎️ 0810-888-3398 | Lu a Vi 9 a 18 | Sa 9 a 17</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        &copy; 2024 Tienda de Celulares. Todos los derechos reservados.
+    </div>
+
+    <script language="javascript">
+        //  Productos de la tienda con enlaces a sus respectivas páginas
+        const pages = {
+            "samsung s24 ultra": "Samsung-s24ultra-256gb.html",
+            "iphone 15 pro max": "Iphone 15 pro max.html",
+            "xiaomi redmi note 13 pro plus": "Xiaomi redmi note 13 pro plus.html",
+            "motorola razr 40 ultra": "Motorola razr 40 ultra.html",
+            "samsung galaxy a55": "Samsung Galaxy A55.html",
+            "iphone 15": "Iphone 15.html",
+            "xiaomi redmi note 13": "Xiaomi Redmi Note 13.html",
+            "motorola edge 40 ultra": "Motorola edge 40 ultra.html",
+            "Apple Iphone 15 Pro 256gb": "Iphone 15 Pro.html",
+            "Apple Iphone 15 128gb": "Iphone 15.html",
+            "Apple Iphone 13 Pro Max 256gb": "Iphone 13 Pro Max.html",
+            "Apple Iphone 13 128gb": "Iphone 13.html",
+            "Apple Iphone 11 64gb": "Iphone 11.html",
+            "Apple Iphone SE 64gb": "Iphone SE.html",
+            "Samsung Galaxy A05s 64gb": "Samsung A05s.html",
+            "Samsung Galaxy A15 128gb": "Samsung A15.html",
+            "Samsung Galaxy A04e 32gb": "Samsung A04e.html",
+            "Samsung Galaxy A05 64gb": "Samsung A05.html",
+            "Samsung Galaxy A35 256gb": "Samsung A35.html",
+            "Samsung Galaxy A54 128gb": "Samsung A54.html",
+            "Moto G24": "Moto G24.html",
+            "Moto G54": "Moto G54.html",
+            "Moto G84 5G": "Moto G84 5G.html",
+            "Moto G85 5G": "Moto G85 5G.html",
+            "Xiaomi Redmi 10C 128gb": "Redmi 10C.html",
+            "Xiaomi Redmi 13 128gb": "Redmi 13.html",
+            "Xiaomi Redmi A3X 128gb": "Redmi A3X.html",
+            "Xiaomi Redmi A2 64gb": "Redmi A2.html",
+            "Xiaomi Redmi 12 256gb": "Redmi 12.html",
+            "Apple Auriculares AirPods Segunda Generación": "apple-airpods.html",
+            "Samsung Galaxy Watch6 44mm": "samsung-watch4.html",
+            "Moto Buds 135 Auriculares Bluetooth": "moto-buds.html",
+            "Foxbox Cable Hub 3 en 1": "foxbox-cable.html",
+            "Moto XT220 Auriculares Bluetooth": "moto-xt220.html",
+            "JBL Wave Flex TWS Auriculares Bluetooth": "jbl-wabe.html"
+        };
+       // Función para buscar el producto ingresado en el recuadro de búsqueda
+        function buscarProducto() { 
+    const consulta = document.getElementById("buscador").value.toLowerCase().trim();
+    // Si el producto existe, redirige a su página
+    if (pages[consulta]) {
+        window.location.href = pages[consulta];
+    } else {
+        alert("Producto no encontrado. Intente buscar otro.");
+    }
+}
+// Función para mostrar sugerencias de productos mientras se escribe
+function mostrarSugerencias() {
+    const consulta = document.getElementById("buscador").value.toLowerCase().trim();
+    const sugerencias = document.getElementById("sugerencias");
+    sugerencias.innerHTML = '';
+
+    if (consulta) {
+        // Encuentra productos que coinciden con la búsqueda
+        const coincidencias = Object.keys(pages).filter(producto => producto.toLowerCase().includes(consulta));
+        console.log(coincidencias);
+        // Muestra las sugerencias del campo de búsqueda
+        if (coincidencias.length > 0) {
+            sugerencias.style.display = 'block';
+            coincidencias.forEach(producto => {
+                const sugerenciaDiv = document.createElement('div');
+                sugerenciaDiv.textContent = producto;
+                sugerenciaDiv.className = 'sugerencia';
+                // Al hacer clic en una sugerencia, redirige a su página
+                sugerenciaDiv.onclick = () => {
+                    window.location.href = pages[producto];
+                };
+                sugerencias.appendChild(sugerenciaDiv);
+            });
+        } else {
+            sugerencias.style.display = 'none';
+        }
+    } else {
+        sugerencias.style.display = 'none';
+    }
+}
+
+// Ocultar sugerencias al hacer clic fuera del recuadro de busqueda
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('#buscador')) {
+        document.getElementById('sugerencias').style.display = 'none';
+    }
+});
+
+// Mostrar sugerencias mientras se escribe en el buscador
+document.getElementById("buscador").addEventListener('input', mostrarSugerencias);
+    </script>
+</body>
+</html>
